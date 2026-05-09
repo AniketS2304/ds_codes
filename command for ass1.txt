@@ -1,0 +1,13 @@
+Terminal 1:	
+		1) java -version
+		2) javac *.java
+
+Terminal 2:
+		1) java Server
+
+Terminal 3:
+		1) java Client
+		
+
+
+		

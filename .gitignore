@@ -1,0 +1,7 @@
+*.class
+orb.db/
+ReverseModule/
+bin/
+.settings/
+.project
+.classpath

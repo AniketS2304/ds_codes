@@ -1,0 +1,15 @@
+Terminal 1:	
+		1) java -version
+		2) idlj -fall ReverseModule.idl  (actual file name)
+		3) javac *.java ReverseModule\*.java  (one warning is displayed)
+		4) orbd -ORBInitialPort 1050
+
+Terminal 2:
+		1) java ReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Terminal 3:
+		1) java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost
+		
+
+
+		
