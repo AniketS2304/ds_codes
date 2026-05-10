@@ -1,0 +1,81 @@
+﻿Assignment 6b - Ring Election Algorithm
+=========================================
+Compilation: SUCCESS
+
+Sample Steps:
+  1. Create 5 processes      (P5 is initial coordinator)
+  2. Display all processes
+  3. Down process P5         (coordinator goes down)
+  4. Run election from P1    (P4 declared new coordinator)
+  5. Display processes again
+  6. Exit
+
+--- Program Output ---
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- Enter the total number of processes:- P1 created.
+P2 created.
+P3 created.
+P4 created.
+P5 created.
+P5 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- P1 is up.
+P2 is up.
+P3 is up.
+P4 is up.
+P5 is up.
+P5 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- Enter the process to down:- Process P5 is down.
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- Enter the process which will initiate election:- Process P1 sending the following list:- [ 1  ]
+Process P2 sending the following list:- [ 1 2  ]
+Process P3 sending the following list:- [ 1 2 3  ]
+Process P4 sending the following list:- [ 1 2 3 4  ]
+Process P1 has declared P4 as the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- P1 is up.
+P2 is up.
+P3 is up.
+P4 is up.
+P5 is down.
+P4 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 
+

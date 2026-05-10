@@ -1,0 +1,86 @@
+﻿Assignment 6a - Bully Election Algorithm
+==========================================
+Compilation: SUCCESS
+
+Sample Steps:
+  1. Create 5 processes      (P5 is initial coordinator)
+  2. Display all processes
+  3. Down process P5         (coordinator goes down)
+  4. Run election from P2    (P4 becomes new coordinator)
+  5. Display processes again
+  6. Exit
+
+--- Program Output ---
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- Enter the number of processes:- Creating processes..
+P1 created
+P2 created
+P3 created
+P4 created
+P5 created
+Process P5 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- P1 is up
+P2 is up
+P3 is up
+P4 is up
+P5 is up
+Process P5 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- Enter the process number to down:- Process 5 is down.
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- Enter the process number which will perform election:- Election message sent from process 2 to process 3
+Election message sent from process 3 to process 4
+Election message sent from process 4 to process 5
+P1 is up
+P2 is up
+P3 is up
+P4 is up
+P5 is down
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- P1 is up
+P2 is up
+P3 is up
+P4 is up
+P5 is down
+Process P4 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 
+

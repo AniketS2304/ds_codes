@@ -1,0 +1,34 @@
+﻿Assignment 3 - Java MPI (Parallel Array Sum using Scatter/Gather)
+===================================================================
+STATUS: Cannot run automatically - requires MPJ Express (MPI library)
+
+REASON:
+  This program uses 'mpi.*' package from MPJ Express (Java MPI binding).
+  MPJ Express is NOT installed on this system and is not a standard
+  Java library. It must be downloaded separately from mpj-express.org
+
+MANUAL STEPS (after installing MPJ Express):
+  1. Set MPJ_HOME environment variable to MPJ install directory
+  2. Compile:
+       javac -cp %MPJ_HOME%\lib\mpj.jar ArrSum.java
+  3. Run with N processes (e.g., 4):
+       mpjrun.bat -np 4 ArrSum
+
+PROGRAM DESCRIPTION:
+  - Root process distributes array elements using MPI Scatter
+  - Each process computes partial sum of its chunk (5 elements each)
+  - Results gathered back to root using MPI Gather
+  - Root computes and displays total sum
+  - With 4 processes and 5 elements each: sums 0..19 = 190
+
+EXPECTED OUTPUT (with 4 processes):
+  Enter 20 elements
+  Element 0 = 0, Element 1 = 1, ... Element 19 = 19
+  Intermediate sum at process 0 is 10
+  Intermediate sum at process 1 is 35
+  Intermediate sum at process 2 is 60
+  Intermediate sum at process 3 is 85
+  Final sum : 190
+
+FILES:
+  - ArrSum.java  : MPI parallel array summation

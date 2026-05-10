@@ -1,0 +1,25 @@
+﻿Assignment 4 - Berkeley Clock Synchronization Algorithm
+=========================================================
+Compilation: SUCCESS
+
+Sample Input:
+  Number of clients : 3
+  Coordinator time  : 10
+  Client 1 time     : 15
+  Client 2 time     : 5
+  Client 3 time     : 20
+
+--- Program Output ---
+Enter number of clients: Enter coordinator (server) time: Enter time for client 1: Enter time for client 2: Enter time for client 3: 
+--- Before Synchronization ---
+Coordinator Time: 10
+Client 1 Time: 15
+Client 2 Time: 5
+Client 3 Time: 20
+
+--- After Synchronization ---
+Coordinator Time: 12
+Client 1 Time: 12
+Client 2 Time: 12
+Client 3 Time: 12
+

@@ -1,0 +1,17 @@
+﻿Assignment 1 - Java RMI Calculator
+====================================
+Compilation Output:
+
+--- Server Output ---
+ server started !
+
+--- Client Output (inputs: num1=10, num2=5) ---
+Enter num1 
+Enter num2 
+Add is 15
+sub is 5
+mul is 50
+div is 2
+square is 100
+squar root is 2
+

@@ -1,0 +1,21 @@
+﻿Assignment 5 - Token Ring
+==========================
+Compilation: SUCCESS
+
+Sample Input:
+  Number of nodes : 5
+  Sender          : 1
+  Receiver        : 3
+  Data            : 42
+  Send again?     : 0 (No)
+
+--- Program Output ---
+Enter Number Of Nodes You Want In The Ring : Ring Formed Is As Below: 
+0 1 2 3 4 0
+Enter Sender : Enter Receiver : Enter Data To Send : Token Passing :  0-> 1
+Sender:1 Sending Data: 42
+Data: 42 Forwarded By: 1
+Data: 42 Forwarded By: 2
+Receiver: 3 Received The Data: 42
+Do You Want To Send Data Again? If YES Enter 1, If NO Enter 0: 
+

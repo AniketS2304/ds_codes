@@ -1,0 +1,31 @@
+﻿Assignment 2 - Java CORBA (Reverse String)
+===========================================
+STATUS: Cannot run automatically - requires external CORBA ORB daemon
+
+REASON:
+  CORBA (Common Object Request Broker Architecture) support, including
+  the 'orbd' daemon and 'idlj' tool, was deprecated in Java 9 and
+  COMPLETELY REMOVED from Java 11+. This JDK 21 does not include it.
+
+MANUAL STEPS (requires Java 8 or old JDK with CORBA):
+  Terminal 1:
+    idlj -fall ReverseModule.idl
+    javac *.java ReverseModule\*.java
+    orbd -ORBInitialPort 1050
+
+  Terminal 2:
+    java ReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+  Terminal 3:
+    java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost
+
+PROGRAM DESCRIPTION:
+  - Client sends a string to the CORBA server
+  - Server reverses the string using the CORBA interface
+  - Client receives and displays the reversed string
+
+FILES:
+  - ReverseModule.idl   : CORBA IDL interface definition
+  - ReverseServer.java  : Server-side implementation
+  - ReverseImpl.java    : Interface implementation
+  - ReverseClient.java  : Client-side code
